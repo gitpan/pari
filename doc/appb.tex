@@ -1,0 +1,39 @@
+% $Id: appb.tex,v 1.7.2.1 2005/09/15 14:58:19 bill Exp $
+% Copyright (c) 2000  The PARI Group
+%
+% This file is part of the PARI/GP documentation
+%
+% Permission is granted to copy, distribute and/or modify this document
+% under the terms of the GNU General Public License
+\appendix{A Sample program and Makefile}
+
+We assume that you have installed the PARI library and include files as
+explained in Appendix A or in the installation guide. If you chose
+differently any of the directory names, change them accordingly in the
+Makefiles.
+
+If the program example that we have given is in the file \kbd{matexp.c} (say
+as the first of several matrix transcendental functions), then a sample
+Makefile might look as follows. Note that the actual file
+{\tt examples/Makefile} is much more elaborate and you should have a look at
+it if you intend to use {\tt install()} on custom made functions, see
+\secref{se:install}.
+
+\bprog
+CC = cc
+INCDIR = @includedir
+LIBDIR = @libdir
+CFLAGS = -O -I$(INCDIR) -L$(LIBDIR)
+
+all:  matexp
+
+matexp:  matexp.c
+      $(CC) $(CFLAGS) -o matexp matexp.c -lpari -lm
+@eprog
+
+\noindent We then give the listing of the program \kbd{examples/matexp.c}
+seen in detail in \secref{se:prog}, with the slight modifications explained
+at the end of that section.
+
+\bprogfile{../examples/matexp.c}
+\vfill\eject

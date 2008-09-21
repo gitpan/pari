@@ -1,0 +1,45 @@
+A great number of people have contributed to the successive improvements
+which eventually resulted in the present version of PARI/GP. We would like
+to thank them all here. In particular, substantial contributions have been
+made by:
+
+David Carlisle         (carlisle@cs.man.ac.uk)
+Marije Huizing         (marije@cwi.nl)
+Bruce Kaskel           (kaskel@math.berkeley.edu)
+Peter Montgomery       (pmontgom@cwi.nl)
+Klaus-Peter Nischke    (klaus@nischke.do.eunet.de)
+Harvey Rose            (H.E.Rose@bristol.ac.uk)
+Michael Stoll          (michael@rhein.iam.uni-bonn.de)
+Juhana Sadeharju       (kouhia@nic.funet.fi)
+
+
+Former members of the PARI development team and other major code contributors:
+
+Christian Batut        (batut@math.u-bordeaux.fr)
+Dominique Bernardi     (bernardi@math.jussieu.fr)
+Francisco Diaz y Diaz  (diaz@math.u-bordeaux.fr)
+Yves Eichenlaub        (eichen@math-labo.univ-poitiers.fr)
+Xavier Gourdon         (Xavier.Gourdon@inria.fr)
+Louis Granboulan       (granboul@ens.fr)
+Bruno Haible           (haible@ilog.fr)
+Pascal Letard
+Michel Olivier         (olivier@math.u-bordeaux.fr)
+Thomas Papanikolaou    (papanik@math.u-bordeaux.fr)
+Denis Simon            (desimon@math.u-bordeaux.fr)
+Emmanuel Tollis
+
+
+Current PARI developers:
+
+Bill Allombert         (Bill.Allombert@math.u-bordeaux.fr)
+Karim Belabas          (Karim.Belabas@math.u-psud.fr)
+Henri Cohen            (Henri.Cohen@math.u-bordeaux.fr)
+Guillaume Hanrot       (Guillaume.Hanrot@loria.fr)
+Gerhard Niklasch       (gerhard.niklasch@okay.net)
+Xavier Roblot          (roblot2@math.u-bordeaux.fr)
+Ilya Zakharevitch      (ilya@math.ohio-state.edu)
+
+
+PARI was originally written (1987) in the Laboratoire A2X, Universite
+Bordeaux I (France) by Christian Batut, Dominique Bernardi, Henri Cohen and
+Michel Olivier.
